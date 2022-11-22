@@ -1,0 +1,689 @@
+body {
+margin: 0px;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/*HEADER*/
+.degulop-masegvad * { 
+    box-sizing: border-box; 
+  } 
+  .degulop-masegvad li { 
+    display: inline-block; 
+    list-style: outside none none; 
+    margin: 0 1.5em; 
+    padding: 0; 
+  } 
+  .degulop-masegvad a { 
+    padding: 0.5em 0; 
+    position: relative; 
+    letter-spacing: 1px; 
+    text-decoration: none; 
+  } 
+  .degulop-masegvad a:before, 
+  .degulop-masegvad a:after { 
+    position: absolute; 
+    -webkit-transition: all 0.35s ease; 
+    transition: all 0.35s ease; 
+  } 
+  .degulop-masegvad a:before { 
+    bottom: 8px; 
+    display: block; 
+    height: 3px; 
+    width: 0%; 
+    content: ""; 
+    background-color: #961914; 
+  } 
+  .degulop-masegvad a:after { 
+    left: 0; 
+    top: 0; 
+    padding: 0.5em 0; 
+    position: absolute; 
+    content: attr(data-hover); 
+    color: #f2f2f5; 
+    white-space: nowrap; 
+    max-width: 0%; 
+    overflow: hidden; 
+  } 
+  .degulop-masegvad a:hover:before, 
+  .degulop-masegvad .kucasekigad a:before { 
+    opacity: 1; 
+    width: 100%; 
+  } 
+  .degulop-masegvad a:hover:after, 
+  .degulop-masegvad .current a:after { 
+    max-width: 100%; 
+  }
+
+.nav-bar {
+    display: flex;
+    position: absolute;
+   align-items: center;
+   margin-top: 20px;
+}
+.menu-flex {
+    display: flex;
+    margin-left: 280px;
+}
+.menu-li {
+    margin-left: 50px;
+}
+.nav-item {
+    color: #fff;
+    font-size: 22px;
+}
+.logo {
+    margin-left: 100px;
+}
+.img-zooo {
+    position: absolute;
+ margin-top: 375px;
+ margin-left: 1292px;
+}
+.header-div {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -80px;
+}
+.header-h1 {
+    font-size: 54px;
+    color: #fff;
+}
+.img-elips {
+   position: absolute;
+   margin-top: -15px;
+   margin-left: -10px;
+}
+.header-p {
+    color: #fff;
+    opacity: 80%;
+    font-size: 20px;
+    margin-top: -25px;
+}
+.poli {
+    position: absolute;
+}
+.header-botton {
+    width: 226px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #961914;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.header-botton:hover {
+    background: #75110D;
+    transition: 1s;
+}
+.botton-a {
+    font-size: 16px;
+    color: #fff;
+}
+/*END HEADER*/
+
+/*Что такое BARF*/
+.barf {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.barf-div {
+    margin-top: -45px;
+}
+.barf-h2 {
+    font-size: 46px;
+    color: black;
+}
+.barf-p {
+    color: #434242;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.barf-p2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.img-dog {
+    margin-left: 130px;
+}
+.barf-li {
+    font-size: 18px;
+    color:#961914;
+}
+.span-li {
+    color: #434242;
+    font-weight: 400;
+    font-weight: lighter;
+}
+/*END Что такое BARF*/
+
+/*РАЦИОН*/
+.racion {
+    display: flex;
+    align-items: center;
+}
+.racion-div {
+    display: flex;
+    margin-top: 18px;
+    margin-left: -40px;
+}
+.racion-food {
+    display: flex;
+    margin-top: 150px;
+    background: #EAD1D0;
+    width: 1240px;
+    height: 280px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.racion-list {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.racion-p {
+    margin-left: 17px;
+}
+.racion-div_2 {
+    margin-left: 180px;
+}
+.racion-ul {
+    margin-top: 32px;
+}
+.img-vector {
+    position: absolute;
+}
+/*END РАЦИОН*/
+
+/*Рационы ZOOOV*/
+.zoov {
+    display: flex;
+    align-items: center;
+    margin-top: 125px;
+}
+.zoov-h2 {
+    font-size: 46px;
+    margin-left: 100px;
+}
+.zoov-p {
+    font-size: 18px;
+    margin-left: 349px;
+}
+.zoov-span {
+    position: absolute;
+}
+.img-elli {
+    position: absolute;
+    margin-top: -15px;
+    margin-right: -15x;
+}
+/*END Рационы ZOOOV*/
+
+/*Галлерея рациона*/
+.galerea {
+    display: flex;
+    justify-content: center;
+}
+.galerea-li {
+    margin-right: 40px;
+}
+.button-galerea {
+    width: 160px;
+    height: 48px;
+    border: 1px solid #961914;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+}
+.button-galerea:hover {
+    background: #EAD1D0;
+    border: none;
+    transition: 1s;
+}
+.galerea-a {
+    color: #961914;
+    font-size: 16px;
+}
+.galerea-dog {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.galerea-span {
+    color: #9F9E9D;
+    font-size: 13px;
+    margin-top: -10px;
+}
+.galerea-p {
+    font-size: 16px;
+    color: #434242;
+    font-weight: 400;
+}
+.galerea-gramm{
+    color: #9F9E9D;
+    font-size: 13px;
+}
+/*END Галлерея рациона*/
+
+/*РАСЧИТАТЬ*/
+.calculation{
+display: flex;
+align-items: center;
+width: 1240px;
+height: 184px;
+background: #EAD1D0;
+justify-content: center;
+margin-left: 100px;
+margin-top: 150px;
+}
+.calculation-p {
+    font-size: 28px;
+    color: #000;
+    font-style: normal;
+}
+.calculation-button {
+    width: 171px;
+    height: 48px;
+    background: #961914;
+    border-radius: 8px;
+    border: none;
+    margin-left: 150px;
+   position: relative;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.calculation-button:hover {
+    background: #75110D;
+}
+.calculation-a {
+    font-size: 16px;
+    color: #fff;
+}
+/*END РАСЧИТАТЬ*/
+
+/*Почему ZOOOV*/
+.what-h2 {
+    color:#000;
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.what-div {
+   margin-top: 45px; 
+}
+.what-ul {
+    display: flex;
+    margin-left: -100px;
+    position: absolute;
+}
+.what-li {
+    margin-left: 165px;
+}
+.what-p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+.what-p2 {
+color: #000;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+}
+.img-4 {
+    margin-bottom: 30px;
+    margin-left: -19px;
+}
+.img-4 {
+    position: absolute;
+}
+/*END Почему ZOOOV*/
+
+/*ЗАБОТА*/
+.zabota {
+   margin-top: 90px;
+   margin-left: 100px;
+}
+.img-21 {
+   margin-bottom: -160px;
+   margin-left: -280px;
+}
+.zabota-h2 {
+    font-size: 46px;
+    color: #000;
+    font-weight: 700;
+    margin-left: 134px;
+}
+.zabota-div {
+    display: flex;
+    margin-top: 430px;
+    
+    background: #FFF4F3;
+    width: 100%;
+    height: 905px;
+}
+.zabota-p {
+    font-size: 18px;
+    color: #434242;
+    line-height: 130%;
+    margin-left: 137px;
+}
+.img-22 {
+  margin-left: -650px;
+  margin-bottom: -70px;
+}
+.zabota-div2 {
+    margin-top: 75px;
+}
+/*END ЗАБОТА*/
+
+/*POLUCHILA ZOOV*/
+.poluchila-ul {
+    display: flex;
+    margin-left: -60px;
+}
+.poluchila-p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.poluchila-p2 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+.poluchila-li {
+    margin-left: 124px;
+}
+.poluchila-arov {
+    display: flex;
+    align-items: center;
+}
+.puls {
+    margin-left: 30px;
+}
+.poluchila-div {
+    margin-top: 135px;
+    font-size: 46px;
+    color: #000;
+    margin-left: 100px;
+}
+.poluchila-div2 {
+    margin-top: 60px;
+}
+.box {
+    margin-top: 5px;
+}
+.poluchila-a {
+    color: #961914;
+}
+/*END POLUCHILA ZOOV*/
+
+  /*===MODALKA===*/
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 250ms linear;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+.modal-h2 {
+    font-size: 40px;
+    color: #961914;
+    margin-left: 40px;
+}
+.modal-p {
+    font-size: 15px;
+    color: #000;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: all 0.6s;
+}
+  .modal-close-btn:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.75;
+    transform: rotate(145deg);
+  }
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.contact-form {
+	width: 370px;
+	min-height: 330px;
+	padding: 20px;
+	margin: 0 auto;
+    margin-left: 20px;
+}
+.contact-form-input {
+	width: 90%;
+	height: 40px;
+	border: 1px solid #303030;
+	margin-bottom: 20px;
+    padding-left: 10px;
+}
+.contact-form-btn {
+    width: 300px;
+    height: 48px;
+    background: #961914;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.link-modal {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Рисуем внутренний круг */
+.custom-radio-btn::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #a3a4a7;
+    border-radius: 50%;
+    margin-left: 40px;
+/* Выравниваем по центру относительно внешнего круга */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+/* Плавный переход трансформации масштабирования */
+    transition: 0.2s ease-in;
+}
+.form-radio {
+    margin-left: 40px;
+}
+/*===END MODALKA===*/
+
+/*===THENK OUY===*/
+.thank {
+    font-size: 46px;
+    text-align: center;
+    color: #961914;
+}
+/*===END THENK OYU===*/
+
+/*===MODAL ZAKAZAT===*/
+.css-modal-checkbox-container {
+    display:flex;
+}
+.hg-modal {
+    font-size: 16px;
+}
+#css-modal-checkbox {
+    display: none;
+}
+/* Кнопка для открытия */
+.css-modal-checkbox {
+    text-decoration: none;
+   padding-left: 47px;
+   padding-top: 15px;
+    font-size: 17px;
+    width: 107px;
+    height: 35px;
+    color: #961914;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #961914;
+    overflow: hidden;
+    z-index: 1;    
+    border-radius: 8px;
+}
+.css-modal-checkbox:hover,
+.css-modal-checkbox:active,
+.css-modal-checkbox:focus {
+    color: #961914;
+    background: #EAD1D0;
+    transition: 0.5s;
+}
+.css-modal-checkbox:before {
+    content: '';
+    position: absolute;
+    transition: transform 0.5s;
+}
+/* Контейнер, который затемняет страницу */
+#css-modal-checkbox + .cmc {
+    display: none;
+}
+#css-modal-checkbox:checked + .cmc {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 4;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(0, 0, 0, 0.4);
+}
+/* Модальное окно */
+#css-modal-checkbox:checked + .cmc .cmt {
+    font-size: 16px;
+    padding: 20px;
+    width:80%;
+    max-width: 750px;
+    max-height: 550px;
+    transition: 0.5s;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    overflow: auto;
+    animation: scale 0.5s ease;
+    overflow: hidden;
+}
+.modal-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+   margin-left: 80px;
+}
+.modal-text2 {
+    color: #9F9E9D;
+    font-size: 15px;
+    margin-top: -15px;
+    line-height: 19px;
+    margin-left: 80px;
+}
+.modal-text3 {
+    color:#434242;
+    font-size: 14px;
+   margin-left: 80px;
+}
+.modal-span {
+    color: #434242;
+    font-weight: 700;
+    
+}
+.modal-span2 {
+    color: #434242;
+    font-size: 14px;
+    margin-left: 80px;
+}
+.modal-text-img {
+    display: flex;
+}
+.contact-btr {
+    margin-left: 432px;
+    margin-top: -130px;
+}
+/* Кнопка с крестиком закрывающая окно */
+.css-modal-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #616161;
+    margin-top: -205px;
+    margin-left: 370px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23337AB7' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='18' y1='6' x2='6' y2='18'%3e%3c/line%3e%3cline x1='6' y1='6' x2='18' y2='18'%3e%3c/line%3e%3c/svg%3e");
+    background-size: cover;
+    animation: move 0.5s ease;
+    cursor: pointer;
+}
+ 
+/* Анимации */
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes move {
+    0% {
+        right: -80px;
+    }
+    100% {
+        right: 20px;
+    }
+}
+@keyframes bg {
+    0% {
+        background: rgba(51, 122, 183, 0);
+    }
+    100% {
+        background: rgba(51, 122, 183, 0.7);
+    }
+}
+/*===END MODAL ZAKAZAT===*/
